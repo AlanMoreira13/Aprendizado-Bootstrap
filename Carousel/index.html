@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+    />
+    <style>
+     
+      .altura80px {
+        height: 300px;
+      }
+      .w300 {
+        width: 300px;
+      }
+      .hide {
+        display: none;
+      }
+    </style>
+    <title>Bootstrap-Carousel</title>
+</head>
+<body>
+
+
+    <div class="container">
+        
+    <h1 style="color: blueviolet;" class="display-1 d-flex justify-content-center">Aula Bootstrap Programador-Br</h1>
+    <br><br>
+
+    
+    <h1 class="display-2">Carousel</h1>
+    
+    <div id="meuCarrossel" class="carousel slide" data-bs-ride="carousel">
+
+      <ul class="carousel-indicators">
+        <li data-bs-target="#meuCarrossel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#meuCarrossel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#meuCarrossel" data-bs-slide-to="2"></li>
+        
+      </ul>
+     
+
+     <div class="carousel-inner ">
+        <div class="carousel-item">
+          <div class="bg-primary altura80px align-items-center d-flex justify-content-center text-light">Grêmio campeão da Libertadores</div>
+        </div>
+        <div class="carousel-item active">
+          <div class="bg-dark altura80px d-flex align-items-center justify-content-center text-light">Grêmio campeão da Copa do Brasil</div>
+        </div>
+        <div class="carousel-item">
+         <div class="bg-info altura80px d-flex align-items-center justify-content-center text-light">Grêmio campeão do Gauchão</div>
+        </div>
+     </div>
+
+     <!-- icones de NEXT e PREVIOUS -->
+     <a class="carousel-control-prev" href="#meuCarrossel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#meuCarrossel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+
+    </div>
+
+    <br><br><br>
+
+    <div id="meuCarrossel2" class="carousel slide" data-bs-ride="carousel">
+
+      <ul class="carousel-indicators">
+        <li data-bs-target="#meuCarrossel2" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#meuCarrossel2" data-bs-slide-to="1"></li>
+        <li data-bs-target="#meuCarrossel2" data-bs-slide-to="2"></li>
+    
+      </ul>
+     <div class="carousel-inner ">
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center align-center" >
+            <img src="./images/kakashi.jpg" alt="kakashi">
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center align-center" >
+            <img src="./images/naruto.jpg" alt="naruto">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center" >
+            <img src="./images/pain.jpg" alt="pain">
+          </div>
+     </div>
+
+    </div>
+   
+    <a class="carousel-control-prev" data-bs-target="#meuCarrossel2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" data-bs-target="#meuCarrossel2" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+
+      </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+</body> 
+</html>
