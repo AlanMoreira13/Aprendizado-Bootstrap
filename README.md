@@ -5,5 +5,5 @@ Fui criando este conteúdo aula após aula do curso "<strong>Desenvolvimento Web
 <br>
 Minha dica é abrir o código no VsCode e o navegador lado a lado, fica extremamente claro e fácil de entender.<br>
   <br>
-✔BOOTSTRAP <br>
-✔HTML <br>
+✔BOOTSTRAP<br>
+✔HTML<br>
